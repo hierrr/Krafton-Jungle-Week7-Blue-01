@@ -27,3 +27,6 @@ handin:
 clean:
 	rm -f *~ *.o proxy core *.tar *.zip *.gzip *.bzip *.gz
 
+re: clean all
+
+.PHONY: all clean re

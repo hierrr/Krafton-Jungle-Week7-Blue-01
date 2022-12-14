@@ -20,3 +20,6 @@ clean:
 	rm -f *.o tiny *~
 	(cd cgi-bin; make clean)
 
+re: clean all
+
+.PHONY: all clean re
